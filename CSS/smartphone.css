@@ -1,0 +1,62 @@
+@media (max-width: 767px){
+    h2{
+        display: none;
+    }
+    .image-box{
+        display: none;
+    }
+    #scroll-button{
+        display: none;
+    }
+    .content-margins{
+        padding: 0 10px 0 10px;
+    }
+    .infos > figure{
+        min-width: inherit;
+      }
+      .text-box {
+          height: 350px;
+          width: 350px;}
+h3{
+    font-family: 'Bebas Neue';
+    font-size: 1.2rem;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+}
+h4{
+    font-family: Bebas Neue;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 25px;
+}
+strong{
+    font: inherit;
+    font-family: 'Bebas Neue';
+    font-size: 36px;
+    letter-spacing: 0.03em;
+}
+p{
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+.infos > div:not(#landing-text){
+    min-width: inherit;
+}
+#skills-content p {
+    font-size: 12px;
+}   
+#home-button>svg{
+    width: 20px;
+    height: 12px;
+}
+#home-button{
+    top: 20px;
+    right: 20px;
+}
+#Menu>p{
+    display: none;
+}
+#contact a{
+    font-size: 16px;
+}
+}

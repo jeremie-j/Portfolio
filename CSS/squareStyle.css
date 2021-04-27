@@ -1,0 +1,85 @@
+.square1{
+    height: 0%;
+    width: 200px;
+    background-color: #161A1D;
+    transition: 1s;
+}
+.square2{
+    height: 0%;
+    width: 200px;
+    transition: 1s;
+}
+
+#projet1 .project-title{
+    color: #495057;
+}
+#projet1 .square2{
+    background-color: #495057;
+}#projet1 .image-project{
+    background-image: url(../ASSET/Run-away.png);
+}
+
+#projet2 .project-title{
+    color: #236477;
+}
+#projet2 .square2{
+    background-color: #236477;
+}#projet2 .image-project{
+    background-image: url(../ASSET/Dis-moi.png);
+}
+
+#projet3 .project-title{
+    color: #EE4F52;
+}
+#projet3 .square2{
+    background-color: #EE4F52;
+}#projet3 .image-project{
+    background-image: url(../ASSET/JS-animation.png);
+}
+
+#projet4 .project-title{
+    color: #2EC4B6;
+}
+#projet4 .square2{
+    background-color: #2EC4B6;
+}#projet4 .image-project{
+    background-image: url(../ASSET/Divertissement.png);
+}
+
+#projet5 .project-title{
+    color: #3B0F0F;
+}
+#projet5 .square2{
+    background-color: #3B0F0F;
+}#projet5 .image-project{
+    background-image: url(../ASSET/Magie.png);
+}
+#projet6 .project-title{
+    color: #851A2A;
+}
+#projet6 .square2{
+    background-color: #851A2A;
+}#projet6 .image-project{
+    background-image: url(../ASSET/Discord-bot.png);
+}
+
+@media (max-width: 375px){
+    #projet1 .square1{
+        background-color: #495057;
+    }
+    #projet2 .square1{
+        background-color: #236477;
+    }
+    #projet3 .square1{
+        background-color: #EE4F52;
+    }
+    #projet4 .square1{
+        background-color: #2EC4B6;
+    }
+    #projet5 .square1{
+        background-color: #3B0F0F;
+    }
+    #projet6 .square1{
+        background-color: #851A2A;
+    }
+}
