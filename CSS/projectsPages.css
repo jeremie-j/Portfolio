@@ -10,7 +10,9 @@ body{
     display: flex;
     overflow-x: hidden;
 }
-
+::selection{
+    background-color: rgba(190, 52, 52, 0.5);
+}
 h2{
     font-family: 'Bebas Neue';
     font-weight: 400;
