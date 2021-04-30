@@ -3,7 +3,7 @@ var slider = document.querySelector(".images");
 
 function SlideTo(i){
         slider.scroll({
-        left: 500 * i,
+        left: slider.clientWidth * i,
         behavior: "smooth",
         });
     for(let f = 0; f < buttons.length; f++){

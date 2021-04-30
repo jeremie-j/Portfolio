@@ -110,7 +110,7 @@ p{
     margin:50px 0 50px 0;
 }
 .page{
-    min-width: 1440px;
+    min-width: 1280px;
     margin: auto auto;
 }
 .right-part{
@@ -176,4 +176,46 @@ h2.card-title5{
 h2.card-title6{
     color:#851A2A;
     margin-bottom: 15px;
+}
+p>a{
+    text-decoration: underline;
+}
+.text{
+    min-height: 522px;
+}
+@media (max-width: 1440px){
+    .page{
+        min-width: 1000px;
+    }
+}
+
+
+@media (max-width: 767px){
+    body{
+        padding: 20px;
+    }
+    .project{
+        flex-direction: column;
+        align-items: center;
+    }
+    .context{
+        width: 300px;
+        margin-bottom: 50px
+    }
+    img{
+        width: 300px;
+        height: 300px;
+    }
+    .images{
+        width: 300px;
+    }
+    .button-wrapper{
+        margin-top: 30px;
+    }
+    .button{
+        transform: scale(2);
+    }
+    .page{
+        min-width: 0px;
+    }
 }
