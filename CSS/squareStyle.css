@@ -62,7 +62,14 @@
 }#projet6 .image-project{
     background-image: url(../ASSET/Discord-bot.png);
 }
-
+#projet7 .project-title{
+    color: #8CD156;
+}
+#projet7 .square2{
+    background-color: #94E356;
+}#projet7 .image-project{
+    background-image: url(../ASSET/Reptilius.png);
+}
 @media (max-width: 375px){
     #projet1 .square1{
         background-color: #495057;
@@ -81,5 +88,8 @@
     }
     #projet6 .square1{
         background-color: #851A2A;
+    }
+    #projet7 .square1{
+        background-color: #94E356;
     }
 }
