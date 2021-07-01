@@ -1,13 +1,1 @@
-var buttons = document.querySelectorAll(".button-wrapper > .button");
-var slider = document.querySelector(".images");
-
-function SlideTo(i){
-        slider.scroll({
-        left: slider.clientWidth * i,
-        behavior: "smooth",
-        });
-    for(let f = 0; f < buttons.length; f++){
-        buttons[f].classList.remove("active")
-    }
-    buttons[i].classList.add("active")
-}
+var buttons=document.querySelectorAll(".button-wrapper > .button"),slider=document.querySelector(".images");function SlideTo(t){slider.scroll({left:slider.clientWidth*t,behavior:"smooth"});for(let t=0;t<buttons.length;t++)buttons[t].classList.remove("active");buttons[t].classList.add("active")}
